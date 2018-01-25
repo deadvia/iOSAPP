@@ -1,25 +1,13 @@
 
+platform :ios, '8.0'
 
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '9.0'
-use_frameworks!
+# My other pods
+
+def study_golang
+
+    pod 'Masonry'
+end
 
 target 'StudyGolang' do
-    pod 'Alamofire'
-    pod 'RxCocoa'
-    pod 'SwiftyJSON'
-    pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
-    pod 'SnapKit'
-    pod 'Hero'
-    pod 'Kingfisher'
-    pod 'Material'
-    pod 'PromiseKit‘
-    pod 'LTMorphingLabel'
-    pod 'Moya'
-    pod 'ObjectMapper'
-    pod 'RxSwift'
-    pod 'Popover'
-    pod 'SwifterSwift'
-    pod 'SwiftTheme'
-    pod 'MarkdownView'
+    study_golang
 end
